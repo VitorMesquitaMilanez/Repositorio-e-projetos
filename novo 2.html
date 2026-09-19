@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estados brasileiros</title>
+  
+  <!-- Link do CSS do Bootstrap via CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- [1] navbar: Barra de navegação -->
+  <!-- [2] bg-dark: Fundo escuro -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- [3] container: Centraliza e limita a largura do conteúdo -->
+    <div class="container">
+      <!-- [4] navbar-brand: Estilo para o título/logo na navegação -->
+      <a class="navbar-brand" href="#">Estados brasileiros</a>
+    </div>
+  </nav>
+
+  <!-- [5] my-4: Utilitário de margem no eixo Y (topo e base) -->
+  <div class="container my-4">
+
+    <!-- [6] alert & alert-success: Caixas de aviso estilizadas (verde para sucesso) -->
+    <div class="alert alert-success text-center mb-4" role="alert">
+      <!-- [7] badge & bg-secondary: Etiqueta/Selo indicativo -->
+      <span class="badge bg-secondary">Novo</span> Você ainda não se cadastrou!
+    </div>
+	
+    <!-- [8] row: Linha do sistema de grid (divisão em colunas) -->
+    <div class="row g-4">
+		
+		<!-- [9] col-md-6: Coluna que ocupa 6 das 12 partes da tela em monitores médios/grandes -->
+		<div class="col-md-12">
+        <!-- [10] card: Container estruturado em formato de cartão -->
+        <!-- [11] shadow: Aplica sombra projetada -->
+        <!-- [12] rounded: Deixa as bordas arredondadas -->
+        <!-- [13] p-3: Utilitário de padding (espaçamento interno) em todos os lados -->
+        <div class="card shadow rounded p-3">
+          <div class="card-body">
+            <!-- [14] text-primary: Altera a cor do texto para o azul primário -->
+            <h5 class="card-title text-primary">Lista de estados brasileiros</h5>
+            <!-- [15] text-muted: Texto com cor atenuada (cinza) -->
+            <p class="card-text text-muted">Aqui está a lista completa de todos os estados brasileiros:</p>
+            <!-- [16] btn & btn-primary: Estilização de botão com estilo azul principal -->
+			
+			<img src="https://www.massari.ind.br/wp-content/uploads/2025/01/biomas-brasileiros-mapa-brasil.png" class="rounded" alt="Descrição da imagem">
+			<p></p>
+			<img src="https://www.infoescola.com/wp-content/uploads/2008/07/mapa-regioes-e-estados-brasileiros.jpg" class="img-fluid w-50" alt="Descrição da imagem">
+			<p></p>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo">
+			Rio Grande do Sul
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0Hw8jnri5rTdz1y058d82Yixa_aw1z6jy2vo5D6OFHg&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Ponto mais ao sul do país, famoso pelo clima temperado, pela cultura gaúcha, produção de vinhos e os Pampas.
+			</div>
+			</div>
+			
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo2">
+			Santa Catarina
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo2">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQedLKHE1wbb5Hb3VOIVRlmAQDmZqp1kdgEs6CW1oMiEQ&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Conhecido por suas praias famosas, forte influência da imigração europeia e serras com temperaturas geladas no inverno.
+			</div>
+			</div>
+			
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo3">
+			Paraná
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo3">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2MpcjfkDIk7ardvm_7h8f8ugkyYbscwn45i0TB4E8XA&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Abriga as exuberantes Cataratas do Iguaçu, uma forte base agrícola e a capital planejada e arborizada de Curitiba.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo4">
+			São Paulo
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo4">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP6KB8KOfLDEN158VaCvQ4ySdsXMnINlkkSr_20Pnw6g&s" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Maior centro econômico, financeiro e industrial da América Latina, caracterizado pela alta densidade urbana e diversidade cultural.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo5">
+			Rio de Janeiro
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo5">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjxdjfdzB7rcS-WWNRpNwVzuuKpGFef8t78dh-vwizkw&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Ícone do turismo nacional por suas paisagens de serra e mar, relevância histórica e forte identidade cultural.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo6">
+			Minas Gerais
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo6">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhw7AAaMzh2l9_fjf4OlVUKmESnONlv0an1MOz_O3Jvw&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Estado sem litoral famoso pelas cidades históricas do ciclo do ouro, relevo montanhoso e gastronomia tradicional.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo7">
+			Espírito Santo
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo7">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhEtiqxarDuKzn5aBF9lPWwxdnV9AQwOVD8ar052m6Eg&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Litoral marcado por importantes complexos portuários, praias e a tradicional culinária capixaba.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo8">
+			Mato Grosso do Sul
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo8">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-YCnkIfX0aZsuWk5P8mYdNKwAgZomrakcvun6J6NKmg&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Destaca-se internacionalmente pelo ecoturismo em Bonito, o bioma do Pantanal e a força da agropecuária.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo9">
+			Goiás
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo9">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShABoZ2i9d27pDIku_ZXL9AFLMlHnW2POKhXWIAU-OQA&s" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Situado no coração do Cerrado, combina força no agronegócio com cidades históricas e belezas naturais como a Chapada dos Veadeiros.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo10">
+			Mato Grosso
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo10">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-9hzEAfQ40Hj_ABHUbRa_5FnxTa6yabhfxxfXDIGDtg&s" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Gigante da produção de grãos e pecuária, abrigando trechos de Cerrado, Pantanal e Floresta Amazônica.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-outline-secondary d-block mb-2" class="btn btn-outline-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo11">
+			Destrito Federal
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo11">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnwXzJ0KBvbi26Fan6QP0WC89SKXPue8hX1EOKZRe8UQ&s" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Enclave no território goiano que abriga Brasília, a capital federal modernista e centro político do país.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo12">
+			Bahia
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo12">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6CvUthgvkgYYSqLG1ZmUYeZ4tfiNIT-fhJ1OH6Th4EA&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Maior litoral do Brasil, rico em acervo histórico colonial, herança cultural afro-brasileira e forte apelo turístico.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo13">
+			Sergipe
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo13">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzCytXwcnA3X_UCwoN89Zw5HggUrN3A8xJItGqSHCJlw&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Menor estado em extensão territorial, conhecido pelo litoral aconchegante e tradições do sertão.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo14">
+			Alagoas
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo14">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSD1Fjcc4SwMWYQ67WSUFv5bBRcawgfBRQ4mQCoS9J_0w&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Destaca-se pelas praias de águas mornas e cristalinas, piscinas naturais e barreiras de corais.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo15">
+			Pernambuco
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo15">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzv1uQnDtUUvXJwTNcqCa-QQniV1-n9R2mDfm3Hwv3_A&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Importante polo cultural e econômico nordestino, berço do frevo, maracatu e do centro histórico de Olinda.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo16">
+			Paraíba
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo16">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIz5pGFYU56GeMHqNjjYTIrX0WT1lso_tyIsPjCVO76Q&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Abriga a Ponta do Seixas (ponto mais oriental das Américas), praias marcantes e festas juninas tradicionais.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo17">
+			Rio Grande do Norte
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo17">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHHB4lpMfDn_7BYg6-JjgecigitFsKgj1CuPuvFXSlyQ&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Famoso por suas extensas dunas de areia, praias ensolaradas e por ser o maior produtor de sal do país.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo17a">
+			Ceará
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo17a">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSJgrQpOHJEOHiowQahGEHKEOLnEO0CdRaAXiXH2IBIA&s" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Polo turístico famoso pelas praias ventosas ideais para kitesurf, serras amenas e forte cultura popular.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo18">
+			Piauí
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo18">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdSqgt6GP9pgaZ0n1Sck0mYPChuHaDuMY22Qp58qK06Q&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Abriga a Serra da Capivara (sítio arqueológico com pinturas rupestres) e o único delta em mar aberto das Américas.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo19">
+			Maranhão
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo19">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShzRFA0XPbMmy8QusijBKq8aTuv1pFEgTPlywF0JqF0g&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Conhecido pelo ecossistema único dos Lençóis Maranhenses e pelo centro histórico colonial de São Luís.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo20">
+			Tocantins
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo20">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYj-hejEu7Ce209WA5PfIgrtqaMsrFvYjWRBuI0Jd9rg&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			O estado mais jovem da federação, famoso pelas paisagens preservadas do Parque Estadual do Jalapão.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo21">
+			Pará
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo21">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqcpTwhjiinr_iZ_KD4aFdTI7tNwge8Qh8XeMpaC_zCg&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Centro da Amazônia Oriental, rico em mineração, gastronomia típica marcante (como o tucupi e o açaí) e o Círio de Nazaré.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo22">
+			Amapá
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo22">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAr1nPQ6VIFpQn50sc9SIH0S6nrzY3D6HD6IX_BuScqA&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Cortado pela linha do Equador, destaca-se por ter grande parte do território coberto por floresta nativa preservada.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo23">
+			Amazonas
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo23">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCF14qNU081ByvzQWenlgUcQqYfrLI72iM0w9PDmLwTw&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Maior estado brasileiro em área, coberto quase totalmente pela Floresta Amazônica e sede da Zona Franca de Manaus.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo24">
+			Roraima
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo24">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb88cj9XfHofAuLmyN9ld9QUEUifNwGz_fJ8SDRtFTEA&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			O estado mais ao norte do Brasil, abrigando o Monte Roraima e vasta diversidade de terras indígenas.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo25">
+			Rondônia
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo25">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ14_dr4FgW8PwIO5IEaJcRWd7c3_DNo0BnBR7Ot7sL_Q&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Estado amazônico marcado pelo povoamento recente, grandes hidrelétricas no Rio Madeira e produção agropecuária.
+			</div>
+			</div>
+			
+			<!-- Botão que controla a ação -->
+			<button class="btn btn-primary d-block mb-2" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#meuConteudo26">
+			Acre
+			</button>
+			
+			<!-- Conteúdo que vai expandir/recolher -->
+			<div class="collapse mt-2" id="meuConteudo26">
+			<div class="card card-body">
+			<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuEdePYfb3gAGEyR6CyVPbnr9E014XvLlsisXaXWz5BA&s=10" class="img-fluid w-25" alt="Descrição da imagem">
+			<p></p>
+			Localizado no extremo oeste, marcado pela história dos seringais, biodiversidade amazônica e presença indígena.
+			</div>
+			</div>
+			
+			
+          </div>
+        </div>
+      </div>
+
+      <!-- Segunda Coluna do Grid -->
+      <div class="col-md-6">
+        <div class="card shadow rounded p-3">
+          <div class="card-body">
+            <h5 class="card-title mb-3">Formulário de Acesso</h5>
+            <form>
+              <!-- [18] mb-3: Margem inferior de nível 3 -->
+              <div class="mb-3">
+                <!-- [19] form-label: Rótulo padronizado para formulários -->
+                <label for="emailInput" class="form-label">Endereço de E-mail</label>
+                <!-- [20] form-control: Estilização padrão para campos de input e textarea -->
+                <input type="email" class="form-control" id="emailInput" placeholder="nome@exemplo.com">
+				<label for="emailInput" class="form-label">Senha</label>
+				<input type="email" class="form-control" id="emailInput" placeholder="exemplo1234">
+              </div>
+              <button type="submit" class="btn btn-success w-100">Entrar</button>
+			  <label for="emailInput" class="form-label">ou</label>
+			  <button type="submit" class="btn btn-success w-100">Nova conta</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- Fim da .row -->
+
+  </div> <!-- Fim do .container -->
+
+  <!-- Script JS do Bootstrap (necessário para componentes interativos) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
